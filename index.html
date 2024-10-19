@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>BookMark</title>
+</head>
+<body class="bg-body-secondary">
+  <div class="container py-5">
+    <h1 class="text-muted">BookMarker</h1>
+    <hr class="mt-5">
+    <div class="text-center form-project shadow-lg  my-md-5 py-md-5">
+      <h2 class="fw-bold text-black">Bookmark your favorite sites</h2>
+      <div class="form-group mx-md-5">
+        <label for="name" class="fw-bold my-3">Site Name</label>
+        <input type="text" class="form-control" id="name" placeholder="BookMark Name">
+        <div id="alertName" class="alert alert-danger mt-3 d-none" role="alert">
+          <span>please enter a valid name</span>
+        </div>
+      </div>
+      <div class="form-group mx-md-5">
+        <label for="url" class="fw-bold my-3">Site URL</label>
+        <input type="text" class="form-control" id="url" placeholder="Website URL">
+        <div id="alertUrl" class="alert alert-danger mt-3 d-none" role="alert">
+          <span >please enter a valid name</span>
+        </div>
+      </div>
+      <button id="addBtn"  class="btn btn-primary mt-4 mb-1">Submit</button>
+    </div>
+    <hr>
+    <div class="mx-auto w-75 ayahaga">
+      <input type="text" id="searchInput"  placeholder="Search by site Name ..." class="form-control">
+    </div>
+    <div class="mx-auto my-3 ">
+      <table class="table  mx-auto  text-center  table-hover shadow-lg">
+        <thead>
+          <!--
+           <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+           -->
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+      </table>
+    </div>
+  
+  </div>
+  
+  <hr>
+  <footer>
+    <h4 class="text-muted h6 px-3 text-center">© 2019 Bookmarker Inc.</h4>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

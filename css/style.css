@@ -1,0 +1,29 @@
+.form-project,.table{
+  background-color: #EEE;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+.add-animation {
+  animation: slideIn 1.5s ease forwards;
+}
+.delete-animation{
+  animation: slideOut 1.5s ease backwards;
+}
