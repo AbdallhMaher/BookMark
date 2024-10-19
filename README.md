@@ -3,21 +3,28 @@ This project is a simple web-based application designed to help users bookmark t
 ## Getting Started
 This project is a starting point for Front-End Applications.
 
-To get started with CRUDS:
+To get started with BookMark:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/AbdallhMaher/BookMark.git
-   cd CRUDS
+   cd BookMark
 2. Open the project in your preferred code editor.
 
 3. Run project on live server
-## project view
-<img src="images/Screenshot 2024-08-01 060713.png"  >
-  
-<img src="images/Screenshot 2024-08-01 060802.png"  >
 
-<img src="images/Screenshot 2024-08-01 061004.png"  >
+## Features
+- **Bookmark Entry**: Users can save the name of the website and its URL.
+- **Search Functionality**: A search bar is provided to filter saved bookmarks by the site's name.
+- **Responsive Design**: The layout adapts to different screen sizes, ensuring a smooth user experience on both desktop and mobile devices.
+
+
+
+## project view
+<img src="screens/_D__Frond-End_Route-revison_excrises_BookMark_index.html (4).png"  >
+  
+<img src="screens/_D__Frond-End_Route-revison_excrises_BookMark_index.html (3).png"  >
+
 
 
 
